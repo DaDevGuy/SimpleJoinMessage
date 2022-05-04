@@ -12,9 +12,7 @@ class Main extends PluginBase
         if($this->getConfig()->get("config-ver") !== 1){
             $this->getLogger()->info(TextFormat::RED . "!WARNING: Config.yml Of SimpleJoinMessage Is Not Uptodate Please Delete It and Restart The Server!");
         }
-        @mkdir($this->getDataFolder());
         $this->saveDefaultConfig();
-        $this->getResource("config.yml");
     }
     public function onJoin(PlayerJoinEvent $event)
     {
