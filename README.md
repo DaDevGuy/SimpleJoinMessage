@@ -1,6 +1,8 @@
 # SimpleJoinMessage
 SimpleJoinMessage Plugin For Pocketmine-MP
 
+[![](https://poggit.pmmp.io/shield.state/SimpleJoinMessage)](https://poggit.pmmp.io/p/SimpleJoinMessage)
+
 # Config 
 ```yml
 #INTERNAL DO NOT TOUCH
