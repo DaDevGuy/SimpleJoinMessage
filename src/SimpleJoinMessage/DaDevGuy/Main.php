@@ -17,9 +17,10 @@ class Main extends PluginBase implements Listener
     }
     public function onJoin(PlayerJoinEvent $event)
     {
+        $line = "\n";
         $player = $event->getPlayer();
         $name = $player->getName();
-        $message = str_replace("{name}", $name, $this->getConfig()->get("join-message"));
+        $message = str_replace(["{name}", "{line}"], [$name, $line], $this->getConfig()->get("join-message"));
         $event->setJoinMessage(joinMessage: $message);
     }
 }
