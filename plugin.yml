@@ -1,5 +1,5 @@
 name: SimpleJoinMessage
 author: DaDevGuy 
 main: SimpleJoinMessage\DaDevGuy\Main
-version: 1.0.1
+version: 1.0.2
 api: [4.0.0]
